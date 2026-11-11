@@ -136,6 +136,7 @@
 
 * [01-Linux](./01-Linux/)
 * [02-LNMP](./02-LNMP/)
+* [03-aiinfra](./03-aiinfra/)
 
 后续计划逐步覆盖：
 
