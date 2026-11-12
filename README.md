@@ -153,7 +153,7 @@
 
 Nginx、PHP 与 MySQL 的集成部署、HTTP 请求处理链路、服务配置、连接与资源管理、性能观察及常见服务故障处理。
 
----
+----
 
 ### 03 · [AI Infrastructure](./03-aiinfra/)
 
