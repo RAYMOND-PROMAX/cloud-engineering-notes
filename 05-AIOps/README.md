@@ -25,7 +25,7 @@ AIOps（Artificial Intelligence for IT Operations）的价值，不仅在于利�
 
 | 编号 | 文章标题 | 主题 |
 | --- | --- | --- |
-| 01 | [K8sGPT、HolmesGPT、kubectl-ai、kagent，谁更适合今天的 Kubernetes AI 运维？](./K8sGPT、HolmesGPT、kubectl-ai、kagent，谁更适合今天的 Kubernetes%20AI%20运维？.md) | 工具定位与选型 · 诊断器 / 事故调查员 / Copilot / Agent 平台 · 分层组合 |
+| 01 | [K8sGPT、HolmesGPT、kubectl-ai、kagent，谁更适合今天的 Kubernetes AI 运维？](./K8sGPT%E3%80%81HolmesGPT%E3%80%81kubectl-ai%E3%80%81kagent%EF%BC%8C%E8%B0%81%E6%9B%B4%E9%80%82%E5%90%88%E4%BB%8A%E5%A4%A9%E7%9A%84%20Kubernetes%20AI%20%E8%BF%90%E7%BB%B4.md) | 工具定位与选型 · 诊断器 / 事故调查员 / Copilot / Agent 平台 · 分层组合 |
 
 ## 探索理念
 
