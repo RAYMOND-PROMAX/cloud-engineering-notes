@@ -23,7 +23,9 @@ AIOps（Artificial Intelligence for IT Operations）的价值，不仅在于利�
 
 本部分持续收录 AIOps 领域的技术研究与实战文章，围绕具体问题，分析技术机制、架构设计、方案选型及工程应用。
 
-*技术文章持续整理中。*
+| 编号 | 文章标题 | 主题 |
+| --- | --- | --- |
+| 01 | [K8sGPT、HolmesGPT、kubectl-ai、kagent，谁更适合今天的 Kubernetes AI 运维？](./K8sGPT、HolmesGPT、kubectl-ai、kagent，谁更适合今天的 Kubernetes%20AI%20运维？.md) | 工具定位与选型 · 诊断器 / 事故调查员 / Copilot / Agent 平台 · 分层组合 |
 
 ## 探索理念
 
