@@ -25,15 +25,15 @@ AI Infrastructure（AI 基础设施）不仅是让模型在 GPU 上运行，还�
 
 | 章节 | 主题                    | 主要内容                                                     |
 | ---- | ----------------------- | ------------------------------------------------------------ |
-| 01   | GPU 与计算环境          | GPU 基本架构、显存、NVIDIA Driver、CUDA、容器 GPU 运行环境   |
-| 02   | Kubernetes GPU 资源管理 | Device Plugin、GPU Operator、GPU 资源声明、节点调度与资源配额 |
-| 03   | GPU 共享与集群调度      | Time Slicing、MPS、MIG 的适用边界；任务队列、优先级、抢占与批量调度 |
-| 04   | 大模型推理基础          | Token、上下文、Prefill、Decode、KV Cache、推理延迟与吞吐     |
-| 05   | vLLM 推理引擎           | PagedAttention、Continuous Batching、Scheduler、前缀缓存与并行策略 |
-| 06   | 模型服务与弹性          | API 服务、容器部署、Kubernetes 工作负载、路由、扩缩容与发布  |
-| 07   | 监控与性能分析          | TTFT、TPOT、ITL、排队时长、GPU 指标、Prometheus 与 Grafana   |
-| 08   | 训练与微调基础          | SFT、LoRA、分布式训练、Checkpoint（后续随资料逐步完善）      |
-| 09   | 安全与可靠性            | 权限隔离、资源限制、健康检查、故障恢复与运维边界（待完善）   |
+| 01   | [GPU 与计算环境](./part-01/01-GPU-Computing-Environment.md) | GPU 基本架构、显存、NVIDIA Driver、CUDA、容器 GPU 运行环境   |
+| 02   | [Kubernetes GPU 资源管理](./part-01/02-Kubernetes-GPU-Resources.md) | Device Plugin、GPU Operator、GPU 资源声明、节点调度与资源配额 |
+| 03   | [GPU 共享与集群调度](./part-01/03-GPU-Sharing-Scheduling.md) | Time Slicing、MPS、MIG 的适用边界；任务队列、优先级、抢占与批量调度 |
+| 04   | [大模型推理基础](./part-01/04-LLM-Inference-Fundamentals.md) | Token、上下文、Prefill、Decode、KV Cache、推理延迟与吞吐     |
+| 05   | [vLLM 推理引擎](./part-01/05-vLLM-Inference-Engine.md) | PagedAttention、Continuous Batching、Scheduler、前缀缓存与并行策略 |
+| 06   | [模型服务与弹性](./part-01/06-Model-Serving-Elasticity.md) | API 服务、容器部署、Kubernetes 工作负载、路由、扩缩容与发布  |
+| 07   | [监控与性能分析](./part-01/07-Observability-Performance.md) | TTFT、TPOT、ITL、排队时长、GPU 指标、Prometheus 与 Grafana   |
+| 08   | [训练与微调基础](./part-01/08-Training-Finetuning-Fundamentals.md) | SFT、LoRA、分布式训练、Checkpoint（后续随资料逐步完善）      |
+| 09   | [安全与可靠性](./part-01/09-Security-Reliability.md) | 权限隔离、资源限制、健康检查、故障恢复与运维边界（待完善）   |
 
 **教学原则：** 原理讲解配合必要的示例，但不把单个知识点写成冗长的完整部署教程。
 
@@ -45,14 +45,14 @@ AI Infrastructure（AI 基础设施）不仅是让模型在 GPU 上运行，还�
 
 | 实验   | 目标                       | 验证重点                                          |
 | ------ | -------------------------- | ------------------------------------------------- |
-| Lab 01 | GPU 环境搭建与基础验收     | 驱动、CUDA、容器 GPU 访问及基础状态检查           |
-| Lab 02 | 部署单机 vLLM 推理服务     | 模型加载、API 调用、参数配置与日志检查            |
-| Lab 03 | 搭建 Kubernetes GPU 环境   | GPU 资源发现、Pod 调度、配额与异常事件            |
-| Lab 04 | 在 Kubernetes 部署推理服务 | Deployment、Service、资源约束、健康检查与模型加载 |
-| Lab 05 | 推理服务监控与压力测试     | TTFT、TPOT、吞吐、队列变化与性能基线              |
-| Lab 06 | GPU 调度和资源共享实验     | 不同调度策略下的资源分配、等待与隔离行为          |
-| Lab 07 | 故障注入与恢复演练         | OOM、Pod Pending、模型启动失败及恢复验证          |
-| Lab 08 | 训练与微调入门实验         | 基础微调、资源占用与 Checkpoint 恢复（待补充）    |
+| Lab 01 | [GPU 环境搭建与基础验收](./part-02/Lab-01-GPU-Environment-Acceptance.md) | 驱动、CUDA、容器 GPU 访问及基础状态检查           |
+| Lab 02 | [部署单机 vLLM 推理服务](./part-02/Lab-02-Single-Node-vLLM.md) | 模型加载、API 调用、参数配置与日志检查            |
+| Lab 03 | [搭建 Kubernetes GPU 环境](./part-02/Lab-03-Kubernetes-GPU-Baseline.md) | GPU 资源发现、Pod 调度、配额与异常事件            |
+| Lab 04 | [在 Kubernetes 部署推理服务](./part-02/Lab-04-vLLM-on-Kubernetes.md) | Deployment、Service、资源约束、健康检查与模型加载 |
+| Lab 05 | [推理服务监控与压力测试](./part-02/Lab-05-Observability-and-Load-Testing.md) | TTFT、TPOT、吞吐、队列变化与性能基线              |
+| Lab 06 | [GPU 调度和资源共享实验](./part-02/Lab-06-GPU-Sharing-and-Scheduling.md) | 不同调度策略下的资源分配、等待与隔离行为          |
+| Lab 07 | [故障注入与恢复演练](./part-02/Lab-07-Fault-Injection-and-Recovery.md) | OOM、Pod Pending、模型启动失败及恢复验证          |
+| Lab 08 | [训练与微调入门实验](./part-02/Lab-08-LoRA-and-Checkpoint.md) | 基础微调、资源占用与 Checkpoint 恢复（待补充）    |
 
 以上为**计划实验**，并不表示已经实施或验证。每个实验将独立记录环境、版本、操作与结果。
 
