@@ -149,9 +149,9 @@
 
 ---
 
-### 02 · [LNMP Web 服务架构](./02-LNMP/README.md)
+### 02 · [计算机网络与工程实践](./02-Network/README.md)
 
-Nginx、PHP 与 MySQL 的集成部署、HTTP 请求处理链路、服务配置、连接与资源管理、性能观察及常见服务故障处理。
+围绕计算机网络基础理论与工程实践，研究 TCP/IP 协议栈、网络分层、路由交换、DNS、HTTP/HTTPS、网络安全与故障排查，重点理解数据包传输机制、网络通信链路及实际网络问题的分析与定位。
 
 ----
 
@@ -174,4 +174,4 @@ GPU 计算环境、容器化模型部署、推理与训练机制、Kubernetes �
 ---
 
 
-**后续计划**：`Network` · `Docker` · `Kubernetes` · `DevOps` · `Observability`。每个专题尽量从基础操作延伸到运行机制、可观测性、异常处理和工程验证。
+**后续计划**：`Docker` · `Kubernetes` · `DevOps` · `Observability`。每个专题尽量从基础操作延伸到运行机制、可观测性、异常处理和工程验证。
