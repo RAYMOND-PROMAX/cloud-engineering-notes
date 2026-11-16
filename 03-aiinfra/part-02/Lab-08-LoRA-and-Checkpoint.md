@@ -181,6 +181,6 @@ nvidia-smi --query-gpu=memory.used,utilization.gpu,power.draw --format=csv -l 1
 
 清理前先备份所需 Checkpoint；之后只删除本实验的 `outputs/ai-infra-lora-lab/`，不要批量清理用户其他模型缓存。
 
-- [Part I 08 · 训练与微调基础](../Part-I-Fundamentals/08-Training-Finetuning-Fundamentals.md)
+- [Part I 08 · 训练与微调基础](../part-01/08-Training-Finetuning-Fundamentals.md)
 - Hugging Face：[TRL SFTTrainer](https://huggingface.co/docs/trl/sft_trainer) · [Transformers Checkpoint 恢复](https://huggingface.co/docs/transformers/en/main_classes/trainer) · [PEFT](https://huggingface.co/docs/peft/)
 - 这是对原有推理资料的**官方文档扩展**；模型训练代码为拟执行示例，不表示已在特定 GPU 上通过验证。

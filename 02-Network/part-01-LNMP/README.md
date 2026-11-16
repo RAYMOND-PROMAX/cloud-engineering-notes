@@ -1,4 +1,6 @@
-# 第二章：LNMP
+# 实验 01 · LNMP Web 服务架构
+
+> 本章第一个工程实验：从单机 LNMP 到负载均衡 + 高可用的完整链路。
 
 ## 实验环境
 
@@ -14,15 +16,15 @@
 | **存储**     | **NFS**    | **10.0.0.31**  | **172.16.1.31**  | NFS                                  |
 | **备份**     | **Backup** | **10.0.0.41**  | **172.16.1.41**  | Rsync                                |
 
-## 实战目录
+## 实战文档
 
-* [Nginx](./Nginx)
-* [PHP-FPM](./PHP-FPM)
-* [Tomcat](./Tomcat)
-* [MariaDB](./MariaDB)
-* [Redis](./Redis)
-* [NFS](./NFS)
-* [WordPress](./WordPress)
-* [负载均衡](./Load-Balance)
-* [高可用](./HA)
-* [备份](./Backup)
+| 主题 | 文档 |
+| --- | --- |
+| 整体实验设计 | [框架实验设计（一）](./框架实验设计（一）.md) |
+| Tomcat 应用服务 | [Tomcat（一）](./Tomcat（一）.md) |
+
+## 待整理
+
+以下主题在实验环境中已规划，暂无独立文档，后续补充：
+
+Nginx · PHP-FPM · MariaDB · Redis · NFS · WordPress · 负载均衡 · 高可用 · 备份
